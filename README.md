@@ -16,11 +16,11 @@ Additionally, this project also consists of reverse-engineering the CRI Middlewa
 
 <!-- PROGRESS-START -->
 ```
-Resident Evil CODE: Veronica X: 1037 implemented functions / 3842 total (26.99%)
+Resident Evil CODE: Veronica X: 1114 implemented functions / 3834 total (29.06%)
 CRI ADX (March 13, 2001): 661 implemented functions / 661 total (100%)
 Tamsoft Sound Driver (EE): 34 implemented functions / 34 total (100%)
 
-Decomp progress: 1732 implemented functions / 4537 total (38.18%)
+Decomp progress: 1809 implemented functions / 4529 total (39.94%)
 ```
 <!-- PROGRESS-END -->
 
@@ -77,7 +77,7 @@ If successful, you will now see an ISO called "RECVX_NEW" in the elf/iso folder 
 
 This work couldn't have been possible without the contributions of the following users:
 
-* [WuGambinos](https://github.com/WuGambinos): Officially part of the RE: CVX decompilation team. Decompiled the Tamsoft Sound Driver, and many other files. 
+* [WuGambinos](https://github.com/WuGambinos) and [daru](https://github.com/davnpsh): Officially part of the RE: CVX decompilation team. 
 * [benoitren](https://git.sr.ht/~benoitren): First to tag along when mentioning an interest to reverse-engineer the game in the PS1/PS2 Decompilation server. Decompiled several files on his own.
 * [Mc-Muffin](https://github.com/Mc-Muffin): Created the splat config for the game binary, solved an important issue with the compiler, developed the script for rebuilding the game ISO and provided the most help with matching the functions, in quality and quantity.   
 * [karas84](https://github.com/karas84): Helped to match very important functions like PS2DrawOTagSub which involved complex logic for rendering graphics on the PS2, as well as many other ones.

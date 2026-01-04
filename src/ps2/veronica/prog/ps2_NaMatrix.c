@@ -1,4 +1,5 @@
 #include "ps2_NaMatrix.h"
+#include "ps2_NaView.h"
 #include "main.h"
 
 /*_anon5 TempMatrix0;
@@ -192,17 +193,18 @@ void njGetTranslation(float pMatrix[16], _anon0* pPoint)
 	// Line 487, Address: 0x2d6848, Func Offset: 0x28
 	// Line 492, Address: 0x2d684c, Func Offset: 0x2c
 	// Func End, Address: 0x2d6854, Func Offset: 0x34
-}
+}*/
 
 // 
 // Start address: 0x2d6860
-void njUnitTransPortion(float pMatrix[16])
+void    njUnitTransPortion(NJS_MATRIX *m)
 {
 	// Line 556, Address: 0x2d6860, Func Offset: 0
 	// Line 582, Address: 0x2d6874, Func Offset: 0x14
 	// Line 589, Address: 0x2d6878, Func Offset: 0x18
 	// Func End, Address: 0x2d6880, Func Offset: 0x20
-}*/
+	scePrintf("njUnitTransPortion - UNIMPLEMENTED!\n");
+}
 
 // 
 // Start address: 0x2d6880
@@ -945,7 +947,7 @@ void	njCalcPoint(NJS_MATRIX *m, NJS_POINT3 *ps, NJS_POINT3 *pd)
 
 // 
 // Start address: 0x2d7540
-void njCalcPoint4(NJS_MATRIX* pMatrix, NO_NAME_16* pSrcPoint, NO_NAME_16* pDstPoint)
+void njCalcPoint4(NJS_MATRIX* pMatrix, NJS_POINT4* pSrcPoint, NJS_POINT4* pDstPoint)
 {
 	// Line 4261, Address: 0x2d7540, Func Offset: 0
 	// Line 4266, Address: 0x2d7554, Func Offset: 0x14
@@ -1207,11 +1209,11 @@ float njInnerProduct(_anon0* pVec1, _anon0* pVec2)
 	// Line 5046, Address: 0x2d78d8, Func Offset: 0x38
 	// Line 5052, Address: 0x2d78dc, Func Offset: 0x3c
 	// Func End, Address: 0x2d78e4, Func Offset: 0x44
-}
+}*/
 
 // 
 // Start address: 0x2d78f0
-void njTranslateEx(_anon0* pVector)
+void njTranslateEx(NJS_VECTOR *v)
 {
 	// Line 5152, Address: 0x2d78f0, Func Offset: 0
 	// Line 5155, Address: 0x2d78fc, Func Offset: 0xc
@@ -1230,11 +1232,12 @@ void njTranslateEx(_anon0* pVector)
 	// Line 5171, Address: 0x2d7930, Func Offset: 0x40
 	// Line 5178, Address: 0x2d7934, Func Offset: 0x44
 	// Func End, Address: 0x2d793c, Func Offset: 0x4c
+	scePrintf("njTranslateEx - UNIMPLEMENTED!\n");
 }
 
 // 
 // Start address: 0x2d7940
-void njRotateEx(int* lpAngle, int lV)
+void njRotateEx( Angle *ang, Sint32 lv )
 {
 	// Line 5240, Address: 0x2d7940, Func Offset: 0
 	// Line 5241, Address: 0x2d794c, Func Offset: 0xc
@@ -1247,11 +1250,12 @@ void njRotateEx(int* lpAngle, int lV)
 	// Line 5248, Address: 0x2d7998, Func Offset: 0x58
 	// Line 5250, Address: 0x2d79a4, Func Offset: 0x64
 	// Func End, Address: 0x2d79b4, Func Offset: 0x74
+	scePrintf("njRotateEx - UNIMPLEMENTED!\n");
 }
 
 // 
 // Start address: 0x2d79c0
-void njScaleEx(_anon0* pScale)
+void njScaleEx(NJS_VECTOR *v)
 {
 	// Line 5351, Address: 0x2d79c0, Func Offset: 0
 	// Line 5354, Address: 0x2d79cc, Func Offset: 0xc
@@ -1270,7 +1274,8 @@ void njScaleEx(_anon0* pScale)
 	// Line 5370, Address: 0x2d7a00, Func Offset: 0x40
 	// Line 5377, Address: 0x2d7a04, Func Offset: 0x44
 	// Func End, Address: 0x2d7a0c, Func Offset: 0x4c
-}*/
+	scePrintf("njScaleEx - UNIMPLEMENTED!\n");
+}
 
 // 
 // Start address: 0x2d7a10

@@ -956,13 +956,14 @@ typedef struct NO_NAME_15_NOPAD
 	unsigned short usIndexMax;
 } NO_NAME_15_NOPAD;
 
-typedef struct NO_NAME_16
+typedef struct NJS_POINT4
 {
-	float x;
-	float y;
-	float z;
-	float w;
-} NO_NAME_16;
+	// total size: 0x10
+    float x; // offset 0x0, size 0x4
+    float y; // offset 0x4, size 0x4
+    float z; // offset 0x8, size 0x4
+    float w; // offset 0xC, size 0x4
+} NJS_POINT4; 
 
 typedef struct NO_NAME_11 /* @anon20 */ {
     // total size: 0x330
@@ -1605,6 +1606,23 @@ typedef struct VU1_STRIP_BUF
 	float fIz;
 	float fNz;
 } VU1_STRIP_BUF;
+
+typedef struct VU1_PRIM_BUF
+{
+    // total size: 0x30
+    float fS;            // offset 0x0, size 0x4
+    float fT;            // offset 0x4, size 0x4
+    float fQ;            // offset 0x8, size 0x4
+    unsigned int ulKick; // offset 0xC, size 0x4
+    float fR;            // offset 0x10, size 0x4
+    float fG;            // offset 0x14, size 0x4
+    float fB;            // offset 0x18, size 0x4
+    float fA;            // offset 0x1C, size 0x4
+    float fX;            // offset 0x20, size 0x4
+    float fY;            // offset 0x24, size 0x4
+    float fZ;            // offset 0x28, size 0x4
+    float fF;            // offset 0x2C, size 0x4
+} VU1_PRIM_BUF;
 
 typedef struct CAM_WORK 
 {

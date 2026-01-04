@@ -37,10 +37,10 @@ void    njCnkEasyDrawObject( NJS_CNK_OBJECT *model );
 /*void njCnkEasyMultiDrawModel(_anon5* pModel);*/
 void    njCnkEasyMultiDrawObject( NJS_CNK_OBJECT *model );
 /*void njCnkSimpleDrawModel(_anon5* pModel);
-void njCnkSimpleMultiDrawModel(_anon5* pModel);
+void njCnkSimpleMultiDrawModel(_anon5* pModel);*/
 void njCnkSetCurrentDrawMode(unsigned int ulMode);
-int njCnkDrawModelLocal(_anon5* pModel);
-int njCnkDrawModelLocalMod(_anon5* pModel);
+int njCnkDrawModelLocal(NJS_CNK_MODEL* pModel);
+/*int njCnkDrawModelLocalMod(_anon5* pModel);
 tagCHUNK_HEAD* njCnkCn(tagCHUNK_HEAD* pCnk);
 tagCHUNK_HEAD* njCnkCbBa(tagCHUNK_HEAD* pCnk);
 tagCHUNK_HEAD* njCnkCbDa(tagCHUNK_HEAD* pCnk);
@@ -61,6 +61,8 @@ tagCHUNK_HEAD* njCnkCvVMod(tagCHUNK_HEAD* pCnk);
 tagCHUNK_HEAD* njCnkCoP3(tagCHUNK_HEAD* pCnk);
 tagCHUNK_HEAD* njCnkCs(tagCHUNK_HEAD* pCnk);*/
 int _CVV(float* v0);
+/*tagCHUNK_HEAD* njCnkCsUvh(tagCHUNK_HEAD* pCnk);
+tagCHUNK_HEAD* njCnkCsUvn(tagCHUNK_HEAD* pCnk);*/
 CHUNK_HEAD* njCnkDefaultLong(CHUNK_HEAD* pCnk);
 CHUNK_HEAD* njCnkDefaultShort(CHUNK_HEAD* pCnk);
 /*void njCnkEasyMultiDrawObjectI(cnkobj* pObject);*/
